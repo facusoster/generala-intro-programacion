@@ -63,7 +63,7 @@ GENERALA/
 ### Compilar
 
 ```bash
-javac -d bin -sourcepath src src/Generala2.java
+javac -d bin -sourcepath src src/Generala.java
 ```
 
 Si hay más archivos `.java` en `src`, puede compilarse todo el directorio:
@@ -75,7 +75,7 @@ javac -d bin $(find src -name "*.java")
 ### Ejecutar
 
 ```bash
-java -cp bin Generala2
+java -cp bin Generala
 ```
 
 > Nota: ejecutar desde la raíz del proyecto para que las rutas de imágenes funcionen correctamente.
