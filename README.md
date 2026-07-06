@@ -41,12 +41,15 @@ El juego permite lanzar cinco dados, elegir cuáles volver a tirar y obtener com
 
 ```text
 GENERALA/
-├── src/        → Código fuente Java
-├── bin/        → Archivos .class generados al compilar
-├── lib/        → Dependencias (si las hubiera)
-├── .vscode/    → Configuración del entorno (opcional)
-├── .gitignore  → Reglas de ignorado
-└── README.md   → Este archivo
+├── src/            → Código fuente Java (.java)
+├── bin/            → Archivos compilados (.class)
+├── images/         → Imágenes de los dados utilizadas por el programa
+├── docs/           → Diagramas, pseudocódigo y documentación del proyecto
+├── lib/            → Dependencias (si las hubiera)
+├── .vscode/        → Configuración del entorno (opcional)
+├── .gitignore      → Reglas de ignorado
+├── README.md       → Descripción del proyecto
+└── Examen Final.pdf → Enunciado de la consigna
 ```
 
 ---
